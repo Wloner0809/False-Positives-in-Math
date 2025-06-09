@@ -1,0 +1,13 @@
+python distill_r1_sample.py \
+    --model_name_or_path "/home/v-wangyu1/model/DeepSeek-R1-Distill-Qwen-1.5B" \
+    --dataset_name_or_path "AI-MO/aimo-validation-aime" \
+    --output_dir "/home/v-wangyu1/Inference-Scaling-Mirage/results/DeepSeek_R1_Distill_Qwen_1_5B-aime_64answers_per_question.jsonl" \
+    --batch_size 5 \
+    --max_new_tokens 16384 \
+    --seed 42 \
+    --temperature 0.6 \
+    --n 64 \
+    --max_model_len 16384 \
+    --tensor_parallel_size 1 \
+    --swap_space 64.0 \
+    --gpu_memory_utilization 0.96 \

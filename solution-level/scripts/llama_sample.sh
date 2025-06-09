@@ -1,0 +1,13 @@
+python llama_sample.py \
+    --model_name_or_path "/home/v-wangyu1/model/Llama-3.1-8B-Instruct" \
+    --dataset_name_or_path "AI-MO/aimo-validation-aime" \
+    --output_dir "/home/v-wangyu1/Inference-Scaling-Mirage/results/llama3.1_8B_Instruct-aime_256answers_per_question.jsonl" \
+    --batch_size -1 \
+    --max_new_tokens 4096 \
+    --seed 42 \
+    --temperature 0.6 \
+    --n 256 \
+    --max_model_len 8192 \
+    --tensor_parallel_size 1 \
+    --swap_space 16.0 \
+    --gpu_memory_utilization 0.96 \

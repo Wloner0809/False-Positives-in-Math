@@ -1,0 +1,13 @@
+python qwen_sample.py \
+    --model_name_or_path "/home/v-wangyu1/model/Qwen2.5-Math-7B-Instruct" \
+    --dataset_name_or_path "AI-MO/aimo-validation-aime" \
+    --output_dir "/home/v-wangyu1/Inference-Scaling-Mirage/results/Qwen2.5_Math_7B_Instruct-aime_256answers_per_question.jsonl" \
+    --batch_size -1 \
+    --max_new_tokens 4096 \
+    --seed 42 \
+    --temperature 0.7 \
+    --n 256 \
+    --max_model_len 4096 \
+    --tensor_parallel_size 1 \
+    --swap_space 16.0 \
+    --gpu_memory_utilization 0.96 \
