@@ -1,0 +1,35 @@
+T-SNE Optimization Summary Report
+==================================================
+
+Layer -1:
+  Optimization Score: 0.010
+  Best Preprocessing: minmax
+  Best Parameters: {'perplexity': 30, 'learning_rate': 150, 'early_exaggeration': 12.0, 'n_iter': 1000}
+
+Layer -2:
+  Optimization Score: 0.022
+  Best Preprocessing: minmax
+  Best Parameters: {'perplexity': 15, 'learning_rate': 200, 'early_exaggeration': 12.0, 'n_iter': 1000}
+
+Layer -3:
+  Optimization Score: 0.051
+  Best Preprocessing: standard
+  Best Parameters: {'perplexity': 5, 'learning_rate': 200, 'early_exaggeration': 8.0, 'n_iter': 1000}
+
+Layer -4:
+  Optimization Score: 0.026
+  Best Preprocessing: standard
+  Best Parameters: {'perplexity': 30, 'learning_rate': 200, 'early_exaggeration': 12.0, 'n_iter': 1000}
+
+Layer -5:
+  Optimization Score: 0.022
+  Best Preprocessing: standard
+  Best Parameters: {'perplexity': 5, 'learning_rate': 200, 'early_exaggeration': 12.0, 'n_iter': 1000}
+
+Layer -6:
+  Optimization Score: 0.027
+  Best Preprocessing: robust
+  Best Parameters: {'perplexity': 5, 'learning_rate': 200, 'early_exaggeration': 4.0, 'n_iter': 1000}
+
+Best Overall Layer: -3
+Best Overall Score: 0.051

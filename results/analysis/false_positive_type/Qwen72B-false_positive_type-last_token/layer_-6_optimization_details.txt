@@ -1,0 +1,16 @@
+Layer -6 Optimization Results
+========================================
+
+Dataset Info:
+  Samples: 83
+  Features: 8192
+  Classes: 4
+  Class distribution: {0: 9, 1: 42, 2: 18, 3: 14}
+
+Recommendations:
+  - High-dimensional features: recommend PCA preprocessing to 50-100 dimensions
+
+Best Preprocessing: pca_then_scale
+Best Parameters: {'perplexity': 15, 'learning_rate': 150, 'early_exaggeration': 12.0, 'n_iter': 1000}
+Best Score: -0.034
+Final Silhouette Score: -0.050

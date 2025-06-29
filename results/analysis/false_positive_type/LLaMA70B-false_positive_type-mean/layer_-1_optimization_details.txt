@@ -1,0 +1,17 @@
+Layer -1 Optimization Results
+========================================
+
+Dataset Info:
+  Samples: 83
+  Features: 8192
+  Classes: 4
+  Class distribution: {0: 9, 1: 42, 2: 18, 3: 14}
+
+Recommendations:
+  - High-dimensional features: recommend PCA preprocessing to 50-100 dimensions
+  - High feature variance difference: recommend StandardScaler or RobustScaler
+
+Best Preprocessing: robust
+Best Parameters: {'perplexity': 5, 'learning_rate': 50, 'early_exaggeration': 8.0, 'n_iter': 1000}
+Best Score: 0.029
+Final Silhouette Score: 0.029
